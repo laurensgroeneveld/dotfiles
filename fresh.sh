@@ -41,11 +41,11 @@ $HOME/.composer/vendor/bin/valet install
 # Create a projects directory
 mkdir $HOME/projects
 
-# Clone Github repositories
-$DOTFILES/clone.sh
-
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
+
+# Symlink the global gitignore file
+ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source $DOTFILES/.macos
