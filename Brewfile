@@ -25,7 +25,6 @@ brew 'svn' # Needed to install fonts
 brew 'php'
 brew 'php@8.0'
 brew 'composer'
-brew 'imagemagick'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
