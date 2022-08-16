@@ -45,7 +45,7 @@ mkdir $HOME/projects
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 
 # Symlink the global gitignore file
-ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+ln -s $DOTFILES/.gitignore_global $HOME/.gitignore_global
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source $DOTFILES/.macos

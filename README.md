@@ -11,19 +11,28 @@ First ensure the settings of the old Mac are backed up with [mackup](https://git
    curl https://raw.githubusercontent.com/laurensgroeneveld/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
    ```
 
-3. Clone this repo to `~/.dotfiles` with:
+3. Copy the SSH key by running
+
+    ```zsh
+    pbcopy < ~/.ssh/id_ed25519.pub
+    ```
+
+4. Clone this repo to `~/.dotfiles` with:
 
     ```zsh
     git clone git@github.com:laurensgroeneveld/dotfiles.git ~/.dotfiles
     ```
 
-4. Run the installation with:
+5. Run the installation with:
 
     ```zsh
     ~/.dotfiles/fresh.sh
     ```
+    This will install Oh My Zsh the first time.
 
-5. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
-6. Restart your computer to finalize the process
+6. Restart Terminal or open a new window for the Oh My Zsh configuration to take effect, and run the install script a second time.
+
+7. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
+8. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
