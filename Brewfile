@@ -65,3 +65,4 @@ mas 'Gifski', id: 1351639930
 mas 'One Thing', id: 1604176982
 mas 'HEIC Converter', id: 1294126402
 mas 'Dato', id: 1470584107
+mas 'Tailscale', id: 1475387142
