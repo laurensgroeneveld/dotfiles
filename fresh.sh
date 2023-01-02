@@ -15,7 +15,12 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+if alias $DOTFILES >/dev/null 2>&1; then 
+  echo 'ZSH profile not loaded correctly, open a new instance of Terminal'
+  exit
+fi
+
+Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
