@@ -47,5 +47,8 @@ ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 # Symlink the global gitignore file
 ln -s $DOTFILES/.gitignore_global $HOME/.gitignore_global
 
+# Hush "last login" message in iTerm and Terminal
+touch .hushlogin
+
 # Set macOS preferences - we will run this last because this will reload the shell
 source $DOTFILES/.macos
