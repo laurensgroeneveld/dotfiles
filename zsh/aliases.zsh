@@ -1,7 +1,6 @@
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias projects="cd $HOME/projects"
 
 # Git
 alias gs="git status"
