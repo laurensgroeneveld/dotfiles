@@ -28,7 +28,6 @@ brew 'composer'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
-brew 'redis'
 
 # Apps
 cask '1password'

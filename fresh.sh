@@ -35,10 +35,10 @@ brew bundle --file $DOTFILES/Brewfile
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
-pecl install imagick redis swoole
+pecl install imagick
 
 # Install global Composer packages
-/opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose spatie/visit
+/opt/homebrew/bin/composer global require laravel/installer laravel/valet spatie/visit
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
