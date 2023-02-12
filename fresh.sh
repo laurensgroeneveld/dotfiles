@@ -20,7 +20,7 @@ if alias $DOTFILES >/dev/null 2>&1; then
   exit
 fi
 
-Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
