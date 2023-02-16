@@ -106,3 +106,6 @@ export LANG=en_US.UTF-8
 
 # Set default user, which hides user@hostname for most sessions
 export DEFAULT_USER=laurens
+
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_ANALYTICS=1
