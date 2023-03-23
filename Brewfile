@@ -23,11 +23,10 @@ brew 'svn' # Needed to install fonts
 
 # Development
 brew 'php'
-brew 'php@8.0'
+brew 'php@8.1'
 brew 'composer'
 brew 'mysql'
 brew 'nginx'
-brew 'node'
 
 # Apps
 cask '1password'
@@ -65,3 +64,4 @@ mas 'One Thing', id: 1604176982
 mas 'HEIC Converter', id: 1294126402
 mas 'Dato', id: 1470584107
 mas 'Tailscale', id: 1475387142
+mas 'Velja', id: 1607635845

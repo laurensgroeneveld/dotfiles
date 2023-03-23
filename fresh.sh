@@ -15,6 +15,11 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# Check for nvm and install if we don't have it
+if test ! $(which nvm); then
+  /bin/bash -c "$(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh)"
+fi
+
 if alias $DOTFILES >/dev/null 2>&1; then 
   echo 'ZSH profile not loaded correctly, open a new instance of Terminal'
   exit
@@ -39,6 +44,10 @@ pecl install imagick
 
 # Install global Composer packages
 /opt/homebrew/bin/composer global require laravel/installer laravel/valet spatie/visit
+
+# Install latest Node LTS
+nvm install --lts
+nvm use --lts
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
