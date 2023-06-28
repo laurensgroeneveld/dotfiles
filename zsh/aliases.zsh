@@ -21,6 +21,8 @@ alias grc="git rebase --continue"
 alias grh="git reset HEAD^"
 alias wip="gaa && gc 'WIP'"
 
+alias lg="lazygit"
+
 function checkoutmain() {
     git checkout $(git symbolic-ref refs/remotes/origin/HEAD | cut -d'/' -f4)
 }
@@ -30,6 +32,7 @@ alias start="npm run start"
 alias watch="npm run watch"
 alias prod="npm run production"
 alias serve="npm run serve"
+alias dev="npm run dev"
 
 # Laravel / PHP
 alias art=artisan
