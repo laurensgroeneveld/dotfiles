@@ -23,6 +23,11 @@ alias wip="gaa && gc 'WIP'"
 
 alias lg="lazygit"
 
+# gh cli
+alias ghpc="gh pr create"
+alias checks="gh pr checks"
+alias merge="gh pr merge"
+
 function checkoutmain() {
     git checkout $(git symbolic-ref refs/remotes/origin/HEAD | cut -d'/' -f4)
 }
