@@ -18,10 +18,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "Lupine"
-sudo scutil --set HostName "Lupine"
-sudo scutil --set LocalHostName "Lupine"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Lupine"
+sudo scutil --set ComputerName "Laurentia"
+sudo scutil --set HostName "Laurentia"
+sudo scutil --set LocalHostName "Laurentia"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Laurentia"
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
@@ -172,6 +172,9 @@ sudo systemsetup -settimezone "Europe/Amsterdam" > /dev/null
 
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+
+# Set clock to analog (works well together with the Dato app)
+defaults write com.apple.menuextra.clock 'IsAnalog' -bool true
 
 ###############################################################################
 # Energy saving                                                               #
