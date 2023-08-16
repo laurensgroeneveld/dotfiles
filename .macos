@@ -23,9 +23,6 @@ sudo scutil --set HostName "Laurentia"
 sudo scutil --set LocalHostName "Laurentia"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Laurentia"
 
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
-
 # Disable transparency in the menu bar and elsewhere on Yosemite
 # defaults write com.apple.universalaccess reduceTransparency -bool true
 
