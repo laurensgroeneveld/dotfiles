@@ -30,6 +30,7 @@ brew 'mysql'
 brew 'nginx'
 
 # Apps
+cask 'arc'
 cask '1password'
 cask 'discord'
 cask 'docker'
