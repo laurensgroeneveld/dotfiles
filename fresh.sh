@@ -37,20 +37,12 @@ brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
 # Set default MySQL root password and auth type
+brew services start mysql
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
-
-# Install PHP extensions with PECL
-pecl install imagick
-
-# Install global Composer packages
-/opt/homebrew/bin/composer global require laravel/installer laravel/valet spatie/visit
 
 # Install latest Node LTS
 nvm install --lts
 nvm use --lts
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
 
 # Create a projects directory
 mkdir $HOME/projects

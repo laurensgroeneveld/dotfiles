@@ -23,11 +23,7 @@ brew 'pkg-config'
 brew 'svn' # Needed to install fonts
 
 # Development
-brew 'php'
-brew 'php@8.1'
-brew 'composer'
 brew 'mysql'
-brew 'nginx'
 
 # Apps
 cask 'arc'
@@ -37,6 +33,7 @@ cask 'docker'
 cask 'homebrew/cask-versions/firefox-beta'
 cask 'google-chrome'
 cask 'gpg-suite'
+cask 'herd'
 cask 'iterm2'
 cask 'karabiner-elements'
 cask 'notion'
