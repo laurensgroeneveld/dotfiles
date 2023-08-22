@@ -47,7 +47,6 @@ cask 'sensiblesidebuttons'
 cask 'slack'
 cask 'sublime-merge'
 cask 'tableplus'
-cask 'tinkerwell'
 cask 'visual-studio-code'
 cask 'zoom'
 
