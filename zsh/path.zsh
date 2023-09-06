@@ -9,3 +9,6 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Make sure coreutils are loaded before system commands
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+# Load unversioned Python binaries
+export PATH="/usr/local/opt/python@3.11/libexec/bin:$PATH"
