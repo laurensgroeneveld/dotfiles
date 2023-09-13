@@ -52,3 +52,5 @@ alias phpunit='vendor/bin/phpunit'
 
 # Other
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
+
+alias cat=bat
