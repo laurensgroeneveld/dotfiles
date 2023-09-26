@@ -55,7 +55,7 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 
 # Fonts
-cask 'font-hack'
+cask 'font-hack-nerd-font'
 
 # Mac App Store
 mas 'Lungo', id: 1263070803
