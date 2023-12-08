@@ -53,4 +53,9 @@ alias phpunit='vendor/bin/phpunit'
 # Other
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 
+# Alternatives for built-in commands
 alias cat=bat
+alias ping=prettyping
+
+alias help=tldr
+alias preview="fzf --preview 'bat --color \"always\" {}'"

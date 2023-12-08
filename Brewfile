@@ -11,6 +11,7 @@ brew 'bash' # Latest Bash version
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
+brew 'fzf'
 brew 'gh'
 brew 'git'
 brew 'git-delta'
@@ -22,7 +23,9 @@ brew 'lazygit'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config'
+brew 'prettyping'
 brew 'svn' # Needed to install fonts
+brew 'tldr'
 
 # Development
 brew 'mysql'
