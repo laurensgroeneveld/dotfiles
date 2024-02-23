@@ -27,6 +27,7 @@ alias lg="lazygit"
 alias ghpc="gh pr create"
 alias checks="gh pr checks"
 alias merge="gh pr merge"
+alias ghpr="gh pr checkout"
 
 function checkoutmain() {
     git checkout $(git symbolic-ref refs/remotes/origin/HEAD | cut -d'/' -f4)
