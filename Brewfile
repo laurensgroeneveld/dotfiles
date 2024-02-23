@@ -68,5 +68,6 @@ mas 'One Thing', id: 1604176982
 mas 'HEIC Converter', id: 1294126402
 mas 'Dato', id: 1470584107
 mas 'Tailscale', id: 1475387142
+mas 'Telegram', id: 747648890
 mas 'Velja', id: 1607635845
 mas 'Hyperduck', id: 6444667067
