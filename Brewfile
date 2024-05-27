@@ -34,6 +34,7 @@ brew 'mysql'
 # Apps
 cask 'arc'
 cask '1password'
+cask 'bitwarden'
 cask 'discord'
 cask 'docker'
 cask 'figma'
