@@ -61,6 +61,9 @@ cask 'quicklook-json'
 
 # Fonts
 cask 'font-hack-nerd-font'
+cask 'font-gudea'
+cask 'font-open-sans'
+cask 'font-shadows-into-light'
 
 # Mac App Store
 mas 'Lungo', id: 1263070803
