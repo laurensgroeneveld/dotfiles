@@ -137,7 +137,3 @@ export HERD_PHP_81_INI_SCAN_DIR="/Users/laurens/Library/Application Support/Herd
 
 # Herd injected PHP 7.4 configuration.
 export HERD_PHP_74_INI_SCAN_DIR="/Users/laurens/Library/Application Support/Herd/config/php/74/"
-
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
