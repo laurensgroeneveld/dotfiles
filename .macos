@@ -18,10 +18,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "Laurentia"
-sudo scutil --set HostName "Laurentia"
-sudo scutil --set LocalHostName "Laurentia"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Laurentia"
+sudo scutil --set ComputerName "Licorice"
+sudo scutil --set HostName "Licorice"
+sudo scutil --set LocalHostName "Licorice"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Licorice"
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
 # defaults write com.apple.universalaccess reduceTransparency -bool true
