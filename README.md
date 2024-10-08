@@ -17,7 +17,7 @@ First ensure the settings of the old Mac are backed up with [mackup](https://git
     pbcopy < ~/.ssh/id_ed25519.pub
     ```
 
-4. Add the SSH key to your GitHub profile.
+4. [Add the SSH key](https://github.com/settings/ssh/new) to your GitHub account.
 
 5. Clone this repo to `~/.dotfiles` with:
 
