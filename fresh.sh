@@ -20,14 +20,14 @@ if test ! $(which nvm); then
   /bin/bash -c "$(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh)"
 fi
 
+# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+rm -rf $HOME/.zshrc
+ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
+
 if alias $DOTFILES >/dev/null 2>&1; then 
   echo 'ZSH profile not loaded correctly, open a new instance of Terminal'
   exit
 fi
-
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
-rm -rf $HOME/.zshrc
-ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
 brew update
