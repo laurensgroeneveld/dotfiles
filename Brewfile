@@ -52,6 +52,7 @@ cask 'slack'
 cask 'tableplus'
 cask 'visual-studio-code'
 cask 'elgato-wave-link'
+cask 'zed'
 cask 'zoom'
 
 # Quicklook
