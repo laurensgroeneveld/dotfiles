@@ -24,7 +24,7 @@ fi
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
-if alias $DOTFILES >/dev/null 2>&1; then 
+if alias $DOTFILES >/dev/null 2>&1; then
   echo 'ZSH profile not loaded correctly, open a new instance of Terminal'
   exit
 fi
@@ -46,9 +46,6 @@ nvm use --lts
 
 # Create a projects directory
 mkdir $HOME/projects
-
-# Symlink the Mackup config file to the home directory
-ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 
 # Symlink the global gitignore file
 ln -s $DOTFILES/.gitignore_global $HOME/.gitignore_global

@@ -20,7 +20,6 @@ brew 'grep'
 brew 'httpie'
 brew 'jq'
 brew 'lazygit'
-brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config'
 brew 'prettyping'
