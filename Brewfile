@@ -61,7 +61,7 @@ cask 'font-hack-nerd-font'
 
 # Mac App Store
 mas 'Lungo', id: 1263070803
-mas 'Contrast', id: 1254981365
+mas 'Contrast — Color Accessibility', id: 1254981365
 mas 'Gifski', id: 1351639930
 mas 'One Thing', id: 1604176982
 mas 'HEIC Converter', id: 1294126402
