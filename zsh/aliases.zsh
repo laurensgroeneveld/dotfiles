@@ -53,6 +53,7 @@ alias phpunit='vendor/bin/phpunit'
 
 # Other
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 
 # Alternatives for built-in commands
 alias cat=bat
