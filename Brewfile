@@ -27,12 +27,10 @@ brew 'tldr'
 brew 'mysql'
 
 # Apps
-cask 'arc'
 cask '1password'
 cask 'discord'
 cask 'docker'
 cask 'figma'
-cask 'firefox@developer-edition'
 cask 'ghostty'
 cask 'google-chrome'
 cask 'herd'
@@ -51,6 +49,7 @@ cask 'tableplus'
 cask 'visual-studio-code'
 cask 'elgato-wave-link'
 cask 'zed'
+cask 'zen'
 cask 'zoom'
 
 # Quicklook
