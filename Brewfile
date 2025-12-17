@@ -28,6 +28,7 @@ brew 'mysql'
 
 # Apps
 cask '1password'
+cask 'claude-code'
 cask 'discord'
 cask 'docker'
 cask 'figma'
