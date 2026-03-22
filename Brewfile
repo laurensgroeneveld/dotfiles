@@ -55,7 +55,6 @@ cask 'zoom'
 
 # Quicklook
 cask 'qlmarkdown'
-cask 'quicklook-json'
 
 # Fonts
 cask 'font-hack-nerd-font'
