@@ -1,7 +1,3 @@
-# Taps
-tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
-
 # Binaries
 brew 'adr-tools'
 brew 'bash' # Latest Bash version
@@ -30,7 +26,7 @@ brew 'mysql'
 cask '1password'
 cask 'claude-code'
 cask 'discord'
-cask 'docker'
+cask 'docker-desktop'
 cask 'figma'
 cask 'ghostty'
 cask 'google-chrome'
