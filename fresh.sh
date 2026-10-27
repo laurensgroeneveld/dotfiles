@@ -15,11 +15,6 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# Check for nvm and install if we don't have it
-if test ! $(which nvm); then
-  /bin/bash -c "$(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh)"
-fi
-
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
@@ -38,10 +33,6 @@ brew bundle --file $DOTFILES/Brewfile
 # Set default MySQL root password and auth type
 brew services start mysql
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
-
-# Install latest Node LTS
-nvm install --lts
-nvm use --lts
 
 # Create a projects directory
 mkdir $HOME/projects

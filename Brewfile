@@ -21,6 +21,7 @@ brew 'tldr'
 
 # Development
 brew 'mysql'
+brew 'node'
 
 # Apps
 cask '1password'
